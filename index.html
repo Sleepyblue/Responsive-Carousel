@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Roboto:wght@900&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="stylesheet" href="style.css" />
+    <script defer src="main.js"></script>
+    <title>Responsive Carousel</title>
+  </head>
+  <body>
+    <section class="section--1">
+      <div class="carousel__container">
+        <div class="carousel__window">
+          <div class="carousel__slider"></div>
+        </div>
+      </div>
+    </section>
+    <section class="section--2">
+      <div class="btn__container">
+        <button class="btn larr" id="larr">
+          <div class="btn__icon">
+            <ion-icon name="caret-back-circle"></ion-icon>
+          </div>
+        </button>
+        <button class="btn rarr" id="rarr" aria-label="Move to next slide">
+          <div class="btn__icon">
+            <ion-icon name="caret-forward-circle"></ion-icon>
+          </div>
+        </button>
+      </div>
+    </section>
+    <script
+      type="module"
+      src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.esm.js"
+    ></script>
+    <script
+      nomodule
+      src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.js"
+    ></script>
+  </body>
+</html>
